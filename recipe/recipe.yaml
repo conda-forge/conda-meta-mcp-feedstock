@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.0"
+  version: "0.1.1"
   python_min: "3.13"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/conda-incubator/conda-meta-mcp/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 04001e7c163c10c9c0fa251d23b0fa8ce8059a8265e38722798181182e8d7dce
+  sha256: 1465594e37c2feb7a3bd86976f7490bd1bb91e724c58b74114eabf7fc76aeb72
 
 build:
   number: 0
