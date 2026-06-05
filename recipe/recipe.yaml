@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.1.2"
+  version: "0.1.3"
   python_min: "3.13"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/conda-incubator/conda-meta-mcp/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 1df4b4de5fceaf21965ebff38c4075e4b5fa7ddbca8546eb5482aec445fd8f44
+  sha256: 3556798226829e464110aa1d8257fbcc6dfe40d7511f5de2353272f70718eec8
 
 build:
   number: 0
@@ -33,10 +33,10 @@ requirements:
     - python >=${{ python_min }}
     - argparse-manpage >=4.7
     - conda >=26.1
-    - conda-forge-metadata >=0.13.0
+    - conda-forge-metadata >=0.15.0,<0.17
     - conda-libmamba-solver
     - conda-package-streaming >=0.12.0
-    - fastmcp >=3.1.0,<3.2.0
+    - fastmcp >=3.1.0,<3.5.0
     - pydantic-monty
     - pyyaml >=6.0.3
     - requests >=2.28.0
